@@ -8,8 +8,7 @@
 	<link rel="icon" href="<%=request.getContextPath()%>/icon/dove.ico">
 
 	<title>Sign In</title>
-	<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-	<!-- <link href="http://v3.bootcss.com/examples/signin/signin.css" rel="stylesheet"> -->
+	<link type="text/css" href="<%=request.getContextPath()%>/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="<%=request.getContextPath()%>/css/signin.css" rel="stylesheet">
 </head>
 
@@ -28,7 +27,8 @@
 				<input type="checkbox" value="remember-me"> Remember me
 			</label>
 		</div>
-		<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+		<button class="btn btn-lg btn-primary" type="submit">Sign in</button>
+		<button class="btn btn-lg btn-primary btn-right" type="submit">Create an account</button>
 	</form>
 
 </div> <!-- /container -->
