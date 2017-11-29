@@ -39,3 +39,52 @@ body {
   border-top-right-radius: 0;
 }
 
+.popup_holder {
+	max-width:1106px;
+	width:100%;
+	background:#EEB422;
+	padding: 70px 15px 80px 15px !important;
+}
+
+.popup_holder h2 {
+  font-size: 30px;
+  color: #6c6c6c;
+  font-weight: normal;
+  /* font-family: 'HelveticaNeueMedium'; */
+  text-align: center;
+    padding-bottom: 20px;
+}
+
+.text_field input[type='button'] {
+  width: 100%;
+  height: 57px;
+  background: #EEB422;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 34px;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.text_field input[type='submit'] {
+  width: 100%;
+  height: 57px;
+  background-color:gray;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 34px;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.show_btn {
+	right:8px;
+}
