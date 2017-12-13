@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+init_string=.clover/coverage.db
+init_string_default=true
+init_string_project_relative=true

@@ -6,6 +6,8 @@ public class User {
 
 	private String passWord;
 
+	private String ConfirmPassword;
+
 	private String firstName;
 
 	private String lastName;
@@ -28,6 +30,14 @@ public class User {
 
 	public void setPassWord(String aPassWord) {
 		this.passWord = aPassWord;
+	}
+
+	public String getConfirmPassword() {
+		return this.ConfirmPassword;
+	}
+
+	public void setConfirmPassword(String aConfirmPassword) {
+		this.ConfirmPassword = aConfirmPassword;
 	}
 
 	public String getFirstName() {

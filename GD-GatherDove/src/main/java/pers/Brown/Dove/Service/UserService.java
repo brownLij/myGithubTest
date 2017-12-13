@@ -1,24 +1,11 @@
 package pers.Brown.Dove.Service;
 
+import pers.Brown.Dove.Domain.User;
 
-public class UserService {
+public interface UserService {
 
-	// ------- Constants (static final) ----------------------------------------
+	void register(User aUser);
 
-	// ------- Static Variables (static) ---------------------------------------
-
-	// ------- Instance Variables (private) ------------------------------------
-
-	// ------- Constructors ----------------------------------------------------
-
-	// ------- Instance Methods (public) ---------------------------------------
-
-	// ------- Instance Methods (protected) ------------------------------------
-
-	// ------- Instance Methods (private) --------------------------------------
-
-	// ------- Static Methods --------------------------------------------------
-
-	// ------- Optional Inner Class ------------------------------------------
+	String checkUserExist(String userName, String passWord);
 
 }

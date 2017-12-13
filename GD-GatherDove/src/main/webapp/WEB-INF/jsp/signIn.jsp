@@ -14,6 +14,10 @@
 
 <body>
 
+	<div>
+		<h1>Welcome ${firstName}</h1>
+	</div>
+	
 	<div class="container">
 
 	<form class="form-signin">
