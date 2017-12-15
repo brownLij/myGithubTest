@@ -2,6 +2,7 @@ package pers.Brown.Dove.Service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import pers.Brown.Dove.Domain.User;
 import pers.Brown.Dove.Repository.UserDao;
@@ -22,7 +23,7 @@ public class UserServiceImpl implements UserService {
 	// ------- Constructors ----------------------------------------------------
 
 	// ------- Instance Methods (public) ---------------------------------------
-	@Override
+	@Transactional
 	public void register(User user) {
 		this.userDao.register(user);
 
